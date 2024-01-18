@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding:15px;
+}
+
+.header {
+    padding-bottom: 80px;
+}
+
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.logo {
+    width: 110px;
+    height: 41px;
+    transition: 0.5s;
+}
+
+.logo:hover{
+    transform: rotate(20deg);
+}
+
+.link__list {
+    display: flex;
+}
+
+.link {
+    margin: 0 16px;
+    padding: 10px;
+    color: #264B1D;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28.8px;
+    transition: 0.2s;
+    border-radius: 7px;
+}
+
+.link:hover{
+    transform: scale(0.9);
+    background-color: #264B1D;
+    color: #fff;
+}
+
+.header__h1 {
+    color: #264B1D;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 100px;
+    padding-bottom: 70px;
+}
+
+.header__img{
+    border-radius: 16px;
+    background: url('../image/header.jpg') center center / cover no-repeat;
+    width: 100%;
+    height: 628px;
+    flex-shrink: 0;
+}
+
+.header__about{
+    padding: 70px 0 30px 0;
+}
+
+.header__about h2{
+    color: #264B1D;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+    padding-bottom: 55px;
+}
+
+.header__about p{
+    display: inline-block;
+    color: #264B1D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px;
+    padding: 10px 17px;
+    border-radius: 3px;
+    border: 2px solid #264B1D;
+    transition: 0.2s;
+}
+
+.header__about p:hover{
+    transform: scale(1.1);
+    background-color: #264B1D;
+    color: #fff;
+}
+
+.main {
+    padding-bottom: 80px;
+}
+
+.main__card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 58px;
+}
+
+.card {
+    width: 530px;
+    height: 686px;
+    background: url('../image/card.jpg') center center / cover no-repeat;
+    border-radius: 16px;
+}
+
+.main__text{
+    max-width: 500px;
+}
+
+.main__p1 {
+    display: inline-block;
+    color: #264B1D;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 28.8px;
+    padding: 10px 17px;
+    border-radius: 3px;
+    border: 2px solid #264B1D;
+    transition: 0.2s;
+}
+
+.main__p1:hover{
+    transform: scale(1.1);
+    background-color: #264B1D;
+    color: #fff;
+}
+
+.main__p2{
+    color: #264B1D;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-bottom: 45px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 100%;
+    height: 426px;
+    border-radius: 16px;
+    background: #264B1D;
+    padding: 70px 50px;
+}
+
+.box h3{
+    color: #EBF1EB;
+    font-family: Roboto;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.box ul{
+    display: flex;
+    gap: 5px;
+}
+
+.box a{
+    color: #EBF1EB;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 36.4px;
+}
+
+
+.main__text__button {
+    padding: 60px 0;
+}
+
+.main__text__button h4{
+    color: #264B1D;
+    font-family: Roboto;
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 100px;
+    padding-bottom: 55px;
+}
+
+.main__text__button p{
+    display: inline-block;
+    color: #264B1D;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px;
+    padding: 10px 17px;
+    border-radius: 3px;
+    border: 2px solid #264B1D;
+    transition: 0.2s;
+}
+
+.main__text__button p:hover{
+    transform: scale(1.1);
+    background-color: #264B1D;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #264B1D;
+    font-size: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    padding-bottom: 60px;
+}
+
+.footer h5{
+    transition: 0.5s;
+    padding: 40px;
+    border-radius: 0%;
+}
+
+.footer h5:hover{
+    background: url('../image/pechat.png') center center / cover no-repeat;
+    color: #ae00ff;
+    font-size: 80px;
+    transform: rotate(20deg);
+}
